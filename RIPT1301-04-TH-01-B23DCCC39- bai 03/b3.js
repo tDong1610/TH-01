@@ -9,7 +9,7 @@ const apiKey = '4ae04986f307408ba4222015240104';
                 return response.json();
             })
             .then(data => {
-                // Hiển thị dữ liệu thời tiết ra giao diện
+              
                 displayWeather(data);
             })
             .catch(error => {
